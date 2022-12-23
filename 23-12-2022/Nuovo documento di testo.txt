@@ -1,0 +1,1 @@
+sono riuscito ad attivare la chiave SSH ed a clonare con successo una repository
