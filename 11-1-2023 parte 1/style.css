@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dff0d9;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 380px;
+  border-radius: 6px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  background-color: white;
+}
+
+.testo {
+  padding: 4px;
+}
+
+.btn {
+  width: 50px;
+  height: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
