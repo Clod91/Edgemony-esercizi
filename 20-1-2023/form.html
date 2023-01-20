@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" type="module"></script>
+    <script src="./formPost.js" type="module"></script>
+  </head>
+  <body>
+    <header>
+      <h1>LOGO</h1>
+      <a href="./index.html">HOME</a>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <div class="tendina"></div>
+    </header>
+    <section class="container">
+      <div class="hero">
+        <img id="img-1" class="show" src="./img/hero1.jpg" alt="alt images" />
+        <img id="img-2" src="./img/hero2.png" alt="alt images" />
+        <img id="img-3" src="./img/hero3.jpg" alt="alt images" />
+      </div>
+      <div class="controls">
+        <div id="btn-1" class="btn active"></div>
+        <div id="btn-2" class="btn"></div>
+        <div id="btn-3" class="btn"></div>
+      </div>
+    </section>
+    <section class="forms">
+      <div class="prod_form">
+      <h2>Inserisci un prodotto</h2>
+      <form id="item_form">
+        <div>
+          <input type="text" name="title" id="title" />
+          <label for="title">Nome prodotto</label>
+        </div>
+        <div>
+          <input type="number" name="price" id="price" />
+          <label for="price">Prezzo del prodotto</label>
+        </div>
+        <div>
+          <input type="number" name="category" id="category_id" />
+          <label for="category">Codice categoria</label>
+        </div><div>
+        <input type="text" id="image" />
+        <label for="image">Immagine</label>
+        </div>
+        <div>
+          <textarea id="description">Descrizione</textarea>
+        </div>
+        <div>
+          <input type="submit" value="INVIA" />
+        </div>
+      </div>
+      </form>
+      <div class="productForm">
+        <h2>Crea la tua categoria</h2>
+        <form id="categoryForm">
+          <div class="formGroup">
+            <label for="name">Category Name:</label>
+            <input name="name" type="text" id="categoryName" required />
+          </div>
+          <div class="formGroup">
+            <label for="image">Category Image:</label>
+            <input name="image" type="url" id="categoryImage" required />
+          </div><div>
+          <input type="submit" value="INVIA" />
+        </div>
+        </form>
+      </div>
+    </section>
+  </section>
+  <section class="forms">
+    <div class="prod_form">
+    <h2>Modifica un prodotto</h2>
+    <form id="mod_form">
+      <div>
+        <input type="number" name="id" id="product_id" />
+        <label for="id">Codice prodotto</label>
+      </div>
+      <div>
+        <input type="text" name="title" id="mod_title" />
+        <label for="title">Nome prodotto</label>
+      </div>
+      <div>
+        <input type="number" name="price" id="mod_price" />
+        <label for="price">Prezzo del prodotto</label>
+      </div>
+      <div>
+        <input type="number" name="category" id="mod_category_id" />
+        <label for="category">Codice categoria</label>
+      </div><div>
+      <input type="text" id="mod_image" />
+      <label for="image">Immagine</label>
+      </div>
+      <div>
+        <textarea id="mod_description">Descrizione</textarea>
+      </div>
+      <div>
+        <input type="submit" value="INVIA" />
+      </div>
+    </div>
+    </form>
+    <div class="productForm">
+      <h2>Elimina un prodotto</h2>
+      <form id="deleteForm">
+        <div>
+          <input type="number" name="id" id="delete_id" />
+          <label for="id">Codice prodotto</label>
+        </div><div>
+        <input type="submit" value="INVIA" />
+      </div>
+      </form>
+    </div>
+  </section>
+    <footer></footer>
+  </body>
+</html>
