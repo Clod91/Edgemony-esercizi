@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,700;1,400&family=Libre+Baskerville:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,700;1,400&family=Dosis:wght@300&family=Libre+Baskerville:ital@1&display=swap");
+
+body {
+  background-color: rgb(255, 223, 210);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid rgb(190, 64, 64);
+  display: flex;
+  padding: 20px;
+  gap: 10px;
+  border-radius: 14px;
+  box-shadow: 0 0 4px rgba(102, 30, 30, 0.35);
+  background-color: lightsalmon;
+  font-family: "Bitter", serif;
+  font-family: "Libre Baskerville", serif;
+  width: 400px;
+}
+
+.card p {
+  font-family: "Bitter", serif;
+  font-family: "Dosis", sans-serif;
+}
