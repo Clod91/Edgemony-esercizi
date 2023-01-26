@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,700;1,400&family=Libre+Baskerville:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,700;1,400&family=Dosis:wght@300&family=Libre+Baskerville:ital@1&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(49, 49, 49);
+}
+
+.title {
+  font-family: "Bitter", serif;
+  font-family: "Libre Baskerville", serif;
+  color: orange;
+}
+
+.wrapper {
+  display: flex;
+  gap: 20px;
+  padding: 60px;
+  border-radius: 12px;
+  box-shadow: 4px 2px 4px rgba(187, 186, 186, 0.35);
+}
+
+.products_price_bar {
+  position: relative;
+  box-shadow: 0 0 4px rgba(187, 186, 186, 0.35);
+  border-radius: 3px;
+  height: 450px;
+  width: 60px;
+  transform: rotate(180deg);
+}
+.products_price_bar:hover {
+  transform: rotateY(180deg);
+}
+
+.price_bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: all 0.35s;
+}
+
+.products_price_bar h4 {
+  width: 60px;
+  position: absolute;
+  bottom: -50px;
+  color: rgb(211, 148, 30);
+  font-weight: bold;
+  font-size: 0.8rem;
+  transform: rotate(180deg);
+}
