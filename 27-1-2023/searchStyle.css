@@ -1,0 +1,11 @@
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+img {
+  height: 500px;
+  width: 300px;
+}
