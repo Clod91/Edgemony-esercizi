@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "bitter", sans-serif;
+  color: rgb(2, 1, 85);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  padding: 20px;
+  gap: 20px;
+  background-color: #fcf5e5;
+}
+.testo {
+  padding: 0;
+  gap: 10px;
+}
+.checkbox {
+  display: flex;
+  justify-content: start;
+  font-size: 14px;
+  gap: 10px;
+}
+input {
+  padding: 14px 40px 14px 10px;
+  border: 2px solid #0023ad;
+  border-radius: 5px;
+}
+.btnInput {
+  padding: 10px 30px;
+  cursor: pointer;
+  background-color: #fcf5e5;
+}
+.btnInput:hover {
+  background-color: #0023ad;
+  color: #fcf5e5;
+}
