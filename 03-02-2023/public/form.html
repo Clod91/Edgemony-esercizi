@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iscrizione</title>
+    <link rel="stylesheet" href="./css/styleForm.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="./img/logo.png" alt="logo" />
+      <a href="/store">Store</a>
+      <a href="/">Torna alla Home</a>
+    </nav>
+    <main class="main">
+      <form>
+        <div class="testo">
+          <h2>Iscriviti alla Newsletter</h2>
+          <p>ti servirà per rimanere aggiornato su tutte le ultime novità!</p>
+        </div>
+        <input
+          type="email"
+          class="email"
+          name="email"
+          id="email"
+          placeholder="inserisci la tua email"
+        />
+        <input
+          type="text"
+          class="nome"
+          name="nome"
+          id="nome"
+          placeholder="come devo chiamarti?"
+        />
+        <div class="checkbox">
+          <input type="checkbox" name="autorizzazione" id="autorizzazione" />
+          <label for="autorizzazione">Autorizzo al trattamento dei dati </label>
+        </div>
+        <button class="btnInput">Registrati</button>
+      </form>
+    </main>
+  </body>
+</html>
