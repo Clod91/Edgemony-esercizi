@@ -1,0 +1,39 @@
+const libri = [
+  {
+    name: "Guerra e Pace",
+    author: "Lev Nikolaevic Tolstoj",
+    price: 25,
+    "first edition": 1869,
+  },
+  {
+    name: "Il Processo",
+    author: "Franz Kafka",
+    price: 10,
+    "first edition": 1925,
+  },
+  {
+    name: "Moby Dick",
+    author: "Herman Melville",
+    price: 13,
+    "first edition": 1851,
+  },
+  {
+    name: "Uno, nessuno e centomila",
+    author: "Luigi Pirandello",
+    price: 10.5,
+    "first edition": 1926,
+  },
+  {
+    name: "1984",
+    author: "George Orwell",
+    price: 12,
+    "first edition": 1949,
+  },
+  {
+    name: "Il Signore degli Anelli",
+    author: "J.R.R. Tolkien",
+    price: 30,
+    "first edition": 1955,
+  },
+];
+module.exports = libri;
