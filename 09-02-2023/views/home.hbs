@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/stile.css">
+    <title>{{titolo}}</title>
+    <style>
+body {
+  background-color: {{myPreferences.color}};
+}
+</style>
+</head>
+<body>
+    <!--Header-->
+    {{> header }}
+   
+    <h1>Ciao </h1>
+    <h2>a breve sarà {{myPreferences.season}}</h2>
+
+    <p>quindi sarà il momento perfetto per andare in giro con il tuo {{myPreferences.pet}}</p>
+
+    {{> img }}
+
+<!--Header-->
+{{> footer }}
+</body>
+</html>
