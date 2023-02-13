@@ -1,0 +1,20 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <body>
+    <h1>Inserisci Nome Utente e Password</h1>
+    {{#if error}}
+      <h3>{{error}}</h3>
+    {{/if}}
+
+    <form action="/login" method="POST">
+      <input type="text" name="name" placeholder="nome" />
+      <input type="password" name="password" placeholder="password" />
+      <button type="submit">Entra</button>
+    </form>
+  </body>
+</html>
