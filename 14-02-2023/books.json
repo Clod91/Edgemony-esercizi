@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "63eb883cd69475feb003b8b3"
+  },
+  "name": "Guerra e Pace",
+  "author": "Lev Nikolaevic Tolstoj",
+  "price": 25,
+  "first edition": 1869
+},{
+  "_id": {
+    "$oid": "63eb883cd69475feb003b8b4"
+  },
+  "name": "Il Processo",
+  "author": "Franz Kafka",
+  "price": 10,
+  "first edition": 1925
+},{
+  "_id": {
+    "$oid": "63eb883cd69475feb003b8b5"
+  },
+  "name": "Moby Dick",
+  "author": "Herman Melville",
+  "price": 13,
+  "first edition": 1851
+},{
+  "_id": {
+    "$oid": "63eb883cd69475feb003b8b6"
+  },
+  "name": "Uno, nessuno e centomila",
+  "author": "Luigi Pirandello",
+  "price": 10.5,
+  "first edition": 1926
+},{
+  "_id": {
+    "$oid": "63eb883cd69475feb003b8b7"
+  },
+  "name": "1984",
+  "author": "George Orwell",
+  "price": 12,
+  "first edition": 1949
+},{
+  "_id": {
+    "$oid": "63eb883cd69475feb003b8b8"
+  },
+  "name": "Il Signore degli Anelli",
+  "author": "J.R.R. Tolkien",
+  "price": 30,
+  "first edition": 1955
+}]

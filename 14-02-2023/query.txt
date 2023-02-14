@@ -1,0 +1,400 @@
+log delle query eseguite
+use library
+'switched to db library'
+db.createCollection("books")
+{ ok: 1 }
+db.books.insertMany([
+  {
+    name: "Guerra e Pace",
+    author: "Lev Nikolaevic Tolstoj",
+    price: 25,
+    "first edition": 1869,
+  },
+  {
+    name: "Il Processo",
+    author: "Franz Kafka",
+    price: 10,
+    "first edition": 1925,
+  },
+  {
+    name: "Moby Dick",
+    author: "Herman Melville",
+    price: 13,
+    "first edition": 1851,
+  },
+  {
+    name: "Uno, nessuno e centomila",
+    author: "Luigi Pirandello",
+    price: 10.5,
+    "first edition": 1926,
+  },
+  {
+    name: "1984",
+    author: "George Orwell",
+    price: 12,
+    "first edition": 1949,
+  },
+  {
+    name: "Il Signore degli Anelli",
+    author: "J.R.R. Tolkien",
+    price: 30,
+    "first edition": 1955,
+  },
+])
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId("63eb8796d69475feb003b8ad"),
+    '1': ObjectId("63eb8796d69475feb003b8ae"),
+    '2': ObjectId("63eb8796d69475feb003b8af"),
+    '3': ObjectId("63eb8796d69475feb003b8b0"),
+    '4': ObjectId("63eb8796d69475feb003b8b1"),
+    '5': ObjectId("63eb8796d69475feb003b8b2")
+  }
+}
+db.books.insertMany([
+  {
+    name: "Guerra e Pace",
+    author: "Lev Nikolaevic Tolstoj",
+    price: 25,
+    "first edition": 1869,
+  },
+  {
+    name: "Il Processo",
+    author: "Franz Kafka",
+    price: 10,
+    "first edition": 1925,
+  },
+  {
+    name: "Moby Dick",
+    author: "Herman Melville",
+    price: 13,
+    "first edition": 1851,
+  },
+  {
+    name: "Uno, nessuno e centomila",
+    author: "Luigi Pirandello",
+    price: 10.5,
+    "first edition": 1926,
+  },
+  {
+    name: "1984",
+    author: "George Orwell",
+    price: 12,
+    "first edition": 1949,
+  },
+  {
+    name: "Il Signore degli Anelli",
+    author: "J.R.R. Tolkien",
+    price: 30,
+    "first edition": 1955,
+  },
+])
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId("63eb883cd69475feb003b8b3"),
+    '1': ObjectId("63eb883cd69475feb003b8b4"),
+    '2': ObjectId("63eb883cd69475feb003b8b5"),
+    '3': ObjectId("63eb883cd69475feb003b8b6"),
+    '4': ObjectId("63eb883cd69475feb003b8b7"),
+    '5': ObjectId("63eb883cd69475feb003b8b8")
+  }
+}
+db.createCollection("users")
+{ ok: 1 }
+db.users.insertMany([
+    {
+      "nome": "Almiero",
+      "cognome": "Ricuperi",
+      "età": 28,
+      "residenza": "Lucca",
+      "genere": "uomo"
+    },
+    {
+      "nome": "Fioldisa",
+      "cognome": "Aretusi",
+      "età": 18,
+      "residenza": "Messina",
+      "genere": "donna"
+    },
+    {
+      "nome": "Vito",
+      "cognome": "De Martini",
+      "età": 24,
+      "residenza": "Napoli",
+      "genere": "uomo"
+    },
+    {
+      "nome": "Gustavo",
+      "cognome": "Caboto",
+      "età": 27,
+      "residenza": "Parma",
+      "genere": "uomo"
+    },
+    {
+      "nome": "Alessio",
+      "cognome": "Tomasini",
+      "età": 30,
+      "residenza": "Palermo",
+      "genere": "uomo"
+    },
+    {
+      "nome": "Alessio",
+      "cognome": "Fanucci",
+      "età": 24,
+      "residenza": "Roma",
+      "genere": "uomo"
+    },
+    {
+      "nome": "Laura",
+      "cognome": "Pizzo",
+      "età": 20,
+      "residenza": "Milano",
+      "genere": "donna"
+    },
+    {
+      "nome": "Maria",
+      "cognome": "Leopardi",
+      "età": 17,
+      "residenza": "Ascoli",
+      "genere": "donna"
+    },
+    {
+      "nome": "Antonietta",
+      "cognome": "Vittadello",
+      "età": 21,
+      "residenza": "Roma",
+      "genere": "donna"
+    },
+    {
+      "nome": "Agostino",
+      "cognome": "Badoglio",
+      "età": 28,
+      "residenza": "Torino",
+      "genere": "uomo"
+    },
+    {
+      "nome": "Emilio",
+      "cognome": "Tarchettii",
+      "età": 22,
+      "residenza": "Verona",
+      "genere": "uomo"
+    },
+    {
+      "nome": "Mauro",
+      "cognome": "Berengario",
+      "età": 19,
+      "residenza": "Roma",
+      "genere": "uomo"
+    },
+    {
+      "nome": "Claudia",
+      "cognome": "Maresa",
+      "età": 21,
+      "residenza": "Milano",
+      "genere": "donna"
+    },
+    {
+      "nome": "Amanda",
+      "cognome": "Borromini",
+      "età": 29,
+      "residenza": "Napoli",
+      "genere": "donna"
+    },
+    {
+      "nome": "Marco",
+      "cognome": "Giannetti",
+      "età": 19,
+      "residenza": "Torino",
+      "genere": "uomo"
+    },
+    {
+      "nome": "Armando",
+      "cognome": "Necci",
+      "età": 25,
+      "residenza": "Milano",
+      "genere": "uomo"
+    },
+    {
+      "nome": "Giulia",
+      "cognome": "Caetani",
+      "età": 25,
+      "residenza": "Verona",
+      "genere": "donna"
+    },
+    {
+      "nome": "Mauro",
+      "cognome": "Turati",
+      "età": 28,
+      "residenza": "Palermo",
+      "genere": "uomo"
+    }
+  ])
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId("63eb894bd69475feb003b8b9"),
+    '1': ObjectId("63eb894bd69475feb003b8ba"),
+    '2': ObjectId("63eb894bd69475feb003b8bb"),
+    '3': ObjectId("63eb894bd69475feb003b8bc"),
+    '4': ObjectId("63eb894bd69475feb003b8bd"),
+    '5': ObjectId("63eb894bd69475feb003b8be"),
+    '6': ObjectId("63eb894bd69475feb003b8bf"),
+    '7': ObjectId("63eb894bd69475feb003b8c0"),
+    '8': ObjectId("63eb894bd69475feb003b8c1"),
+    '9': ObjectId("63eb894bd69475feb003b8c2"),
+    '10': ObjectId("63eb894bd69475feb003b8c3"),
+    '11': ObjectId("63eb894bd69475feb003b8c4"),
+    '12': ObjectId("63eb894bd69475feb003b8c5"),
+    '13': ObjectId("63eb894bd69475feb003b8c6"),
+    '14': ObjectId("63eb894bd69475feb003b8c7"),
+    '15': ObjectId("63eb894bd69475feb003b8c8"),
+    '16': ObjectId("63eb894bd69475feb003b8c9"),
+    '17': ObjectId("63eb894bd69475feb003b8ca")
+  }
+}
+db.books.find()
+{
+  _id: ObjectId("63eb883cd69475feb003b8b3"),
+  name: 'Guerra e Pace',
+  author: 'Lev Nikolaevic Tolstoj',
+  price: 25,
+  'first edition': 1869
+}
+{
+  _id: ObjectId("63eb883cd69475feb003b8b4"),
+  name: 'Il Processo',
+  author: 'Franz Kafka',
+  price: 10,
+  'first edition': 1925
+}
+{
+  _id: ObjectId("63eb883cd69475feb003b8b5"),
+  name: 'Moby Dick',
+  author: 'Herman Melville',
+  price: 13,
+  'first edition': 1851
+}
+{
+  _id: ObjectId("63eb883cd69475feb003b8b6"),
+  name: 'Uno, nessuno e centomila',
+  author: 'Luigi Pirandello',
+  price: 10.5,
+  'first edition': 1926
+}
+{
+  _id: ObjectId("63eb883cd69475feb003b8b7"),
+  name: '1984',
+  author: 'George Orwell',
+  price: 12,
+  'first edition': 1949
+}
+{
+  _id: ObjectId("63eb883cd69475feb003b8b8"),
+  name: 'Il Signore degli Anelli',
+  author: 'J.R.R. Tolkien',
+  price: 30,
+  'first edition': 1955
+}
+
+db.users.findOne({nome:"Laura"})
+{
+  _id: ObjectId("63eb894bd69475feb003b8bf"),
+  nome: 'Laura',
+  cognome: 'Pizzo',
+  'età': 20,
+  residenza: 'Milano',
+  genere: 'donna'
+}
+db.books.find().sort({price:-1})
+{
+  _id: ObjectId("63eb883cd69475feb003b8b8"),
+  name: 'Il Signore degli Anelli',
+  author: 'J.R.R. Tolkien',
+  price: 30,
+  'first edition': 1955
+}
+{
+  _id: ObjectId("63eb883cd69475feb003b8b3"),
+  name: 'Guerra e Pace',
+  author: 'Lev Nikolaevic Tolstoj',
+  price: 25,
+  'first edition': 1869
+}
+{
+  _id: ObjectId("63eb883cd69475feb003b8b5"),
+  name: 'Moby Dick',
+  author: 'Herman Melville',
+  price: 13,
+  'first edition': 1851
+}
+{
+  _id: ObjectId("63eb883cd69475feb003b8b7"),
+  name: '1984',
+  author: 'George Orwell',
+  price: 12,
+  'first edition': 1949
+}
+{
+  _id: ObjectId("63eb883cd69475feb003b8b6"),
+  name: 'Uno, nessuno e centomila',
+  author: 'Luigi Pirandello',
+  price: 10.5,
+  'first edition': 1926
+}
+{
+  _id: ObjectId("63eb883cd69475feb003b8b4"),
+  name: 'Il Processo',
+  author: 'Franz Kafka',
+  price: 10,
+  'first edition': 1925
+}
+
+db.users.countDocuments()
+18
+db.users.find().limit(3)
+{
+  _id: ObjectId("63eb894bd69475feb003b8b9"),
+  nome: 'Almiero',
+  cognome: 'Ricuperi',
+  'età': 28,
+  residenza: 'Lucca',
+  genere: 'uomo'
+}
+{
+  _id: ObjectId("63eb894bd69475feb003b8ba"),
+  nome: 'Fioldisa',
+  cognome: 'Aretusi',
+  'età': 18,
+  residenza: 'Messina',
+  genere: 'donna'
+}
+{
+  _id: ObjectId("63eb894bd69475feb003b8bb"),
+  nome: 'Vito',
+  cognome: 'De Martini',
+  'età': 24,
+  residenza: 'Napoli',
+  genere: 'uomo'
+}
+db.books.find({name:"Il Processo"},{price:1})
+{
+  _id: ObjectId("63eb883cd69475feb003b8b4"),
+  price: 10
+}
+
+db.users.updateOne({ nome: "Almiero" },
+{
+  $set: {
+    cognome: "Rullo",
+    residenza: "Bolgheri"
+  }
+})
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}

@@ -1,0 +1,163 @@
+[{
+  "_id": {
+    "$oid": "63eb894bd69475feb003b8b9"
+  },
+  "nome": "Almiero",
+  "cognome": "Rullo",
+  "età": 28,
+  "residenza": "Bolgheri",
+  "genere": "uomo"
+},{
+  "_id": {
+    "$oid": "63eb894bd69475feb003b8ba"
+  },
+  "nome": "Fioldisa",
+  "cognome": "Aretusi",
+  "età": 18,
+  "residenza": "Messina",
+  "genere": "donna"
+},{
+  "_id": {
+    "$oid": "63eb894bd69475feb003b8bb"
+  },
+  "nome": "Vito",
+  "cognome": "De Martini",
+  "età": 24,
+  "residenza": "Napoli",
+  "genere": "uomo"
+},{
+  "_id": {
+    "$oid": "63eb894bd69475feb003b8bc"
+  },
+  "nome": "Gustavo",
+  "cognome": "Caboto",
+  "età": 27,
+  "residenza": "Parma",
+  "genere": "uomo"
+},{
+  "_id": {
+    "$oid": "63eb894bd69475feb003b8bd"
+  },
+  "nome": "Alessio",
+  "cognome": "Tomasini",
+  "età": 30,
+  "residenza": "Palermo",
+  "genere": "uomo"
+},{
+  "_id": {
+    "$oid": "63eb894bd69475feb003b8be"
+  },
+  "nome": "Alessio",
+  "cognome": "Fanucci",
+  "età": 24,
+  "residenza": "Roma",
+  "genere": "uomo"
+},{
+  "_id": {
+    "$oid": "63eb894bd69475feb003b8bf"
+  },
+  "nome": "Laura",
+  "cognome": "Pizzo",
+  "età": 20,
+  "residenza": "Milano",
+  "genere": "donna"
+},{
+  "_id": {
+    "$oid": "63eb894bd69475feb003b8c0"
+  },
+  "nome": "Maria",
+  "cognome": "Leopardi",
+  "età": 17,
+  "residenza": "Ascoli",
+  "genere": "donna"
+},{
+  "_id": {
+    "$oid": "63eb894bd69475feb003b8c1"
+  },
+  "nome": "Antonietta",
+  "cognome": "Vittadello",
+  "età": 21,
+  "residenza": "Roma",
+  "genere": "donna"
+},{
+  "_id": {
+    "$oid": "63eb894bd69475feb003b8c2"
+  },
+  "nome": "Agostino",
+  "cognome": "Badoglio",
+  "età": 28,
+  "residenza": "Torino",
+  "genere": "uomo"
+},{
+  "_id": {
+    "$oid": "63eb894bd69475feb003b8c3"
+  },
+  "nome": "Emilio",
+  "cognome": "Tarchettii",
+  "età": 22,
+  "residenza": "Verona",
+  "genere": "uomo"
+},{
+  "_id": {
+    "$oid": "63eb894bd69475feb003b8c4"
+  },
+  "nome": "Mauro",
+  "cognome": "Berengario",
+  "età": 19,
+  "residenza": "Roma",
+  "genere": "uomo"
+},{
+  "_id": {
+    "$oid": "63eb894bd69475feb003b8c5"
+  },
+  "nome": "Claudia",
+  "cognome": "Maresa",
+  "età": 21,
+  "residenza": "Milano",
+  "genere": "donna"
+},{
+  "_id": {
+    "$oid": "63eb894bd69475feb003b8c6"
+  },
+  "nome": "Amanda",
+  "cognome": "Borromini",
+  "età": 29,
+  "residenza": "Napoli",
+  "genere": "donna"
+},{
+  "_id": {
+    "$oid": "63eb894bd69475feb003b8c7"
+  },
+  "nome": "Marco",
+  "cognome": "Giannetti",
+  "età": 19,
+  "residenza": "Torino",
+  "genere": "uomo"
+},{
+  "_id": {
+    "$oid": "63eb894bd69475feb003b8c8"
+  },
+  "nome": "Armando",
+  "cognome": "Necci",
+  "età": 25,
+  "residenza": "Milano",
+  "genere": "uomo"
+},{
+  "_id": {
+    "$oid": "63eb894bd69475feb003b8c9"
+  },
+  "nome": "Giulia",
+  "cognome": "Caetani",
+  "età": 25,
+  "residenza": "Verona",
+  "genere": "donna"
+},{
+  "_id": {
+    "$oid": "63eb894bd69475feb003b8ca"
+  },
+  "nome": "Mauro",
+  "cognome": "Turati",
+  "età": 28,
+  "residenza": "Palermo",
+  "genere": "uomo"
+}]
