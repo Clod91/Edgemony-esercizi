@@ -1,0 +1,18 @@
+.App {
+  margin: 0;
+}
+
+.dark_mode {
+  background-color: rgb(36, 36, 36);
+  color: rgb(216, 216, 216);
+}
+
+.toggle {
+  position: absolute;
+  top: 5px;
+  left: 60px;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1.5rem;
+  border-color: rgb(15, 15, 82);
+}

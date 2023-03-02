@@ -1,0 +1,19 @@
+.navbar {
+  width: 100vw;
+  height: 50px;
+  background-color: rgb(15, 15, 82);
+  display: flex;
+  justify-content: space-around;
+}
+
+.linksList {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+}
+
+.linksList a {
+  text-decoration: none;
+  color: white;
+}
