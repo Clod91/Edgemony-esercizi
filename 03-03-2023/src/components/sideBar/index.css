@@ -1,0 +1,21 @@
+.sideBar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  width: 200px;
+  height: 500px;
+  color: white;
+  background-color: darkblue;
+  justify-content: space-around;
+  padding: 10px;
+}
+.sideBar a {
+  text-decoration: none;
+  color: white;
+}
+
+.sideList a {
+  text-decoration: none;
+  color: white;
+}
