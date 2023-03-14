@@ -1,30 +1,19 @@
 import { useState } from "react";
-import { todo } from "./mock/todo";
+import InputForm from "./components/inputForm";
+import { todos } from "./mock/todos";
 import "./App.css";
+import TodoList from "./components/todoList";
 
 function App() {
-  const [newTodo, setNewtodo] = useState([]);
-  const [value, setValue] = useState("");
-
-  const OnHandleSubmit = (e) => {
-    e.preventDefault();
-    console.log(todo);
-    const inputTodo = value;
-    let todos = newTodo.concat(inputTodo);
-    setNewtodo(todos);
-  };
+  const [list, setList] = useState(todos);
 
   return (
     <div className="App">
-      <form className="todo_form" onSubmit={OnHandleSubmit}>
-        <input type="submit" value="aggiungi" />
-        <input
-          type="text"
-          placeholder="attività da eseguire"
-          value={value}
-          onChange={(e) => setValue(e.target.value)}
-        />
-      </form>
+      <h2 className="title">In Forma Con Claudio</h2>
+      <div className="container">
+        <InputForm setList={setList} />
+        <TodoList list={list} setList={setList} />
+      </div>
     </div>
   );
 }

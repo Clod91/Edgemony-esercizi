@@ -1,0 +1,6 @@
+.todo_list {
+  width: 100%;
+  list-style-type: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
